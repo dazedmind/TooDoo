@@ -1,0 +1,148 @@
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+body {
+    font-family: Inter;
+    background: #333;
+}
+
+nav .navBar {
+    background-color: #161616;
+}
+
+.topBar {
+    background-color: #161616;
+}
+
+.menubar {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    float: right;
+    padding: 1rem;
+}
+
+.headTitle {
+    font-size: 1em;
+    padding: 1rem;
+    color: white;
+    display: inline-block;
+}
+main {
+    background: #333;;
+}
+
+.wrapper {
+    background-color: #222;
+    height: max-content;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 2rem;
+    margin-left: 2in;
+    margin-right: 2in;
+}
+@media only screen and (max-width:600px) {
+    .wrapper{
+        margin: 1rem 2rem;
+    }
+}
+
+.menuColor {
+    color: white;
+}
+
+.todoForm{
+    padding: 1rem;
+    display: block;
+    margin: auto;
+    width: 320px;
+}
+@media only screen and (max-width:600px) {
+    .todoForm {
+        width: 220px;
+    }
+    
+}
+
+.inputBox {
+    color: #333;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+
+.addBtn {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    padding: 3pt;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.donebtn{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.todoList {
+    background:white;
+    border-radius: 6px;
+    margin:auto ;
+    display: block;
+    text-align: start;
+    width: 400px;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 0.5rem;
+}
+
+@media only screen and (max-width:600px) {
+    .todoList{
+        width: auto;
+    }
+    .inputBox{
+        width: 150px;
+    }
+
+}
+
+.github{
+    width: 1.5rem;
+    height: 1.5rem;
+    filter: invert();
+    display: inline-block;
+}
+
+.github:hover{
+    filter: invert();
+    cursor: pointer;
+    transition: ease-in-out;
+    transition-duration: 100ms;
+}
+
+footer{
+    background-color: #232323;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    height:60px;   /* Height of the footer */
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+
+.twitter {
+    filter:invert();
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
